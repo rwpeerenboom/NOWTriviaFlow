@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_category">
+    <sys_hub_category action="INSERT_OR_UPDATE">
+        <name>Testing</name>
+        <order>100</order>
+        <sys_class_name>sys_hub_category</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-19 16:15:29</sys_created_on>
+        <sys_id>0c72372e1b5777405cfedd33dd4bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Testing</sys_name>
+        <sys_package display_value="SNOWTrivia" source="x_snc_snowtrivia">66b13f6a1b5777405cfedd33dd4bcb89</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNOWTrivia">66b13f6a1b5777405cfedd33dd4bcb89</sys_scope>
+        <sys_update_name>sys_hub_category_0c72372e1b5777405cfedd33dd4bcb68</sys_update_name>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-19 16:15:29</sys_updated_on>
+    </sys_hub_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=0c72372e1b5777405cfedd33dd4bcb68"/>
+</record_update>

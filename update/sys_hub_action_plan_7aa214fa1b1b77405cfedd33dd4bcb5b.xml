@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_plan">
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Get Trivia Answer">e33e4c761b1b77405cfedd33dd4bcb9f</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"7aa214fa1b1b77405cfedd33dd4bcb5b","name":"plan"}}</plan>
+        <snapshot>54b3183e1b1b77405cfedd33dd4bcb68</snapshot>
+        <sys_class_name>sys_hub_action_plan</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-19 18:36:13</sys_created_on>
+        <sys_id>7aa214fa1b1b77405cfedd33dd4bcb5b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>e33e4c761b1b77405cfedd33dd4bcb9f</sys_name>
+        <sys_package display_value="SNOWTrivia" source="x_snc_snowtrivia">66b13f6a1b5777405cfedd33dd4bcb89</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNOWTrivia">66b13f6a1b5777405cfedd33dd4bcb89</sys_scope>
+        <sys_update_name>sys_hub_action_plan_7aa214fa1b1b77405cfedd33dd4bcb5b</sys_update_name>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-19 18:40:53</sys_updated_on>
+    </sys_hub_action_plan>
+</record_update>

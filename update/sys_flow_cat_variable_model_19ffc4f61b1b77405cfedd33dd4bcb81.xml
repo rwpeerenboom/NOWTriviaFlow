@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_cat_variable_model">
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>9dffc4f61b1b77405cfedd33dd4bcb80</id>
+        <name>Test Trivia Spoke</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-19 18:24:22</sys_created_on>
+        <sys_id>19ffc4f61b1b77405cfedd33dd4bcb81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Trivia Spoke</sys_name>
+        <sys_package display_value="SNOWTrivia" source="x_snc_snowtrivia">66b13f6a1b5777405cfedd33dd4bcb89</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNOWTrivia">66b13f6a1b5777405cfedd33dd4bcb89</sys_scope>
+        <sys_update_name>sys_flow_cat_variable_model_19ffc4f61b1b77405cfedd33dd4bcb81</sys_update_name>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-19 18:24:22</sys_updated_on>
+    </sys_flow_cat_variable_model>
+</record_update>

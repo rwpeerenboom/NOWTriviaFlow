@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="category" label="Category" language="en" table="var__m_sys_hub_action_output_cb56b7621b9777405cfedd33dd4bcb1b">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <help/>
+            <hint/>
+            <label>Category</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_cb56b7621b9777405cfedd33dd4bcb1b</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>robert.peerenboom</sys_created_by>
+            <sys_created_on>2019-08-19 16:32:41</sys_created_on>
+            <sys_id>49663b621b9777405cfedd33dd4bcb61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Category</sys_name>
+            <sys_package display_value="SNOWTrivia" source="x_snc_snowtrivia">66b13f6a1b5777405cfedd33dd4bcb89</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SNOWTrivia">66b13f6a1b5777405cfedd33dd4bcb89</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_cb56b7621b9777405cfedd33dd4bcb1b_category_en</sys_update_name>
+            <sys_updated_by>robert.peerenboom</sys_updated_by>
+            <sys_updated_on>2019-08-19 16:32:41</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

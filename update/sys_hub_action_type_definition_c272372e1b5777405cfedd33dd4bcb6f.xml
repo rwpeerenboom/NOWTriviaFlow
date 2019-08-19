@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation>Get a random ServiceNow Trivia Question.</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Testing">0c72372e1b5777405cfedd33dd4bcb68</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Get a random ServiceNow Trivia Question.</description>
+        <internal_name>get_trivia_question</internal_name>
+        <label_cache>[{"name":"{{step[78ab3570-2db4-4f7f-86c3-1c26a7061705].response_body}}","label":"step➛Call getQuestion Method➛Response Body","type":"step","ref":""},{"name":"{{step[78ab3570-2db4-4f7f-86c3-1c26a7061705].status_code}}","label":"step➛Call getQuestion Method➛Status Code","type":"step","ref":""},{"name":"{{step[ab03d642-257e-4e29-9917-e854091c86e5].step_output_question}}","label":"step➛Parse Response➛step_output_question","type":"step","ref":""},{"name":"{{step[ab03d642-257e-4e29-9917-e854091c86e5].step_output_category}}","label":"step➛Parse Response➛step_output_category","type":"step","ref":""},{"name":"{{step[ab03d642-257e-4e29-9917-e854091c86e5].step_output_difficulty}}","label":"step➛Parse Response➛step_output_difficulty","type":"step","ref":""},{"name":"{{step[ab03d642-257e-4e29-9917-e854091c86e5].step_output_id}}","label":"step➛Parse Response➛step_output_id","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>255677621b9777405cfedd33dd4bcb09</latest_snapshot>
+        <master_snapshot>cb56b7621b9777405cfedd33dd4bcb1b</master_snapshot>
+        <name>Get Trivia Question</name>
+        <outputs/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-19 16:15:32</sys_created_on>
+        <sys_id>c272372e1b5777405cfedd33dd4bcb6f</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Get Trivia Question</sys_name>
+        <sys_package display_value="SNOWTrivia" source="x_snc_snowtrivia">66b13f6a1b5777405cfedd33dd4bcb89</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNOWTrivia">66b13f6a1b5777405cfedd33dd4bcb89</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_c272372e1b5777405cfedd33dd4bcb6f</sys_update_name>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-19 17:51:30</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=c272372e1b5777405cfedd33dd4bcb6f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c272372e1b5777405cfedd33dd4bcb6f"/>
+    <sys_element_mapping action="delete_multiple" query="id=c272372e1b5777405cfedd33dd4bcb6f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>category</field>
+        <id>c272372e1b5777405cfedd33dd4bcb6f</id>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-19 16:31:30</sys_created_on>
+        <sys_id>bb16b3621b9777405cfedd33dd4bcb0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-19 16:31:30</sys_updated_on>
+        <table>var__m_sys_hub_action_output_c272372e1b5777405cfedd33dd4bcb6f</table>
+        <value>{{step[ab03d642-257e-4e29-9917-e854091c86e5].step_output_category}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>difficulty</field>
+        <id>c272372e1b5777405cfedd33dd4bcb6f</id>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-19 16:31:30</sys_created_on>
+        <sys_id>3316b3621b9777405cfedd33dd4bcb0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-19 16:31:30</sys_updated_on>
+        <table>var__m_sys_hub_action_output_c272372e1b5777405cfedd33dd4bcb6f</table>
+        <value>{{step[ab03d642-257e-4e29-9917-e854091c86e5].step_output_difficulty}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>question</field>
+        <id>c272372e1b5777405cfedd33dd4bcb6f</id>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-19 16:31:30</sys_created_on>
+        <sys_id>f716b3621b9777405cfedd33dd4bcb0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-19 16:31:30</sys_updated_on>
+        <table>var__m_sys_hub_action_output_c272372e1b5777405cfedd33dd4bcb6f</table>
+        <value>{{step[ab03d642-257e-4e29-9917-e854091c86e5].step_output_question}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>question_id</field>
+        <id>c272372e1b5777405cfedd33dd4bcb6f</id>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2019-08-19 16:31:30</sys_created_on>
+        <sys_id>7f16b3621b9777405cfedd33dd4bcb0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2019-08-19 16:31:30</sys_updated_on>
+        <table>var__m_sys_hub_action_output_c272372e1b5777405cfedd33dd4bcb6f</table>
+        <value>{{step[ab03d642-257e-4e29-9917-e854091c86e5].step_output_id}}</value>
+    </sys_element_mapping>
+</record_update>
